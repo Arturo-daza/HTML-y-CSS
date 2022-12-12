@@ -1,0 +1,53 @@
+h1 {
+    color:crimson;
+}
+/* Probando colores y fuentes */
+
+p {
+    color:rgb(41, 128, 7);
+    font-size: 16pt;
+}
+
+/* acceder a selectores de id */
+
+p#primera-noticia{
+    color:rgb(41, 128, 7);
+    font-size: 12pt;
+}
+
+#segunda-noticia{
+    color:blueviolet;
+
+}
+
+/* acceder a selectores de clase */
+
+.encabezado{
+    font-size:24pt;
+    text-transform: uppercase;
+}
+
+/* selector universal */
+
+*.warning {
+    color: red
+
+}
+
+
+/* varias referencias en una solsa*/
+/* .autor{
+    text-decoration: underline;
+}
+
+.fecha{
+    text-decoration: underline;
+}
+
+.ubicacion{
+    text-decoration: underline;
+} */
+
+.autor, .fecha, .ubicacion, h1, #segunda-noticia{
+    text-decoration: underline;
+}
